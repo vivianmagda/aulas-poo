@@ -1,14 +1,12 @@
 package semana03;
 
-import javax.swing.JOptionPane;
-
 public class Math7 {
 	
 	//ALBUM DA COPA - quanto vou gastar pra completar
 	
 	public static final int QUANTIDADE_FIGURINHAS = 670;
 	public static final int PACOTINHO = 5;
-	public static final int PREÇO_PACOTE = 4;
+	public static final int PREÃ‡O_PACOTE = 4;
 	public static int[] figurinha = new int[QUANTIDADE_FIGURINHAS];
 	
 	public static void main(String[] args) {
@@ -25,8 +23,8 @@ public class Math7 {
 		
 		}while(albumCompleto()==false);
 		
-		System.out.println("Você compra: " + qtdePacotes + " pacotinhos.");
-		System.out.println("Você gasta: " + qtdePacotes*PREÇO_PACOTE + " reais.");
+		System.out.println("Voce compra: " + qtdePacotes + " pacotinhos.");
+		System.out.println("Voce gasta: " + qtdePacotes*PREÃ‡O_PACOTE + " reais.");
 		
 	} 
 	
